@@ -9,13 +9,19 @@ function Navbar() {
 
       <ul className="max-sm:hidden flex gap-5">
         <li>
-          <a href="#about">About Me</a>
+          <a href="#about" className="hover:underline">
+            About Me
+          </a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects" className="hover:underline">
+            Projects
+          </a>
         </li>
         <li>
-          <a href="#contact">Contact Me</a>
+          <a href="#contact" className="hover:underline">
+            Contact Me
+          </a>
         </li>
       </ul>
 

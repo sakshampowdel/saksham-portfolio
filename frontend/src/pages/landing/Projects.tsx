@@ -7,7 +7,7 @@ function Projects() {
       className="flex-col flex justify-between p-10 text-xl gap-5"
     >
       <div>
-        <h2 className="font-bold text-5xl mb-6">Projects</h2>
+        <h2 className="font-bold text-4xl mb-6">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5 leading-relaxed">
           <ProjectCard
             project={{
