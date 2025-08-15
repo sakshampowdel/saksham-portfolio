@@ -1,5 +1,28 @@
 @import "tailwindcss";
 
-html {
-  scroll-behavior: smooth;
+@theme {
+  /* Active tokens (utilities like bg-background, text-foreground) */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+}
+
+/* ====== Theme 1: Light happy hues ====== */
+:root[data-theme="light"] {
+  --background: #f9f4ef;
+  --foreground: #020826;
+  --muted: #716040;
+  --accent: #8c7851;
+  --accent-foreground: #fffffe;
+}
+
+/* ====== Theme 1: Dark happy hues ====== */
+:root[data-theme="dark"] {
+  --background: #0f0e17;
+  --foreground: #fffffe;
+  --muted: #a7a9be;
+  --accent: #ff8906;
+  --accent-foreground: #fffffe;
 }
