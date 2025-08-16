@@ -1,0 +1,26 @@
+[
+  {
+    "name": "BetterReads",
+    "role": "Lead Software Developer",
+    "period": "May 2025 - Present",
+    "description": "Currently building a full-stack social platform inspired by Goodreads, designed to help users discover books and share their reading experiences. Developing scalable backend services with Spring Boot and PostgreSQL, exposing RESTful APIs for search and personalized reading lists. Implementing a responsive React (Vite) frontend with modular routing, shared state management, and a search-driven interface. Containerizing backend services with Docker, with plans for production deployment using Kubernetes and CI/CD pipelines.",
+    "tags": ["Spring Boot", "React", "TypeScript", "PostgreSQL", "Docker"],
+    "link": "https://github.com/sakshampowdel/BetterReads"
+  },
+  {
+    "name": "AI Image Upscaler",
+    "role": "Software Developer",
+    "period": "July 2025",
+    "description": "Built a Python-based tool to upscale low-resolution images by 4x using the pretrained ESRGAN model and PyTorch. Implemented tensor conversion, normalization, and postprocessing pipelines to transform PIL images into enhanced outputs. Integrated deep learning inference on CPU, enabling real-time image transformation without requiring GPU acceleration. Created a clean command-line interface for loading inputs, running ESRGAN inference, and saving high-quality results.",
+    "tags": ["Python", "PyTorch", "ESRGAN", "NumPy"],
+    "link": "https://github.com/sakshampowdel/ai-upscaler"
+  },
+  {
+    "name": "UNIX Shell Implementation",
+    "role": "Software Developer",
+    "period": "June 2023",
+    "description": "Created a custom UNIX shell to gain a deeper understanding of OS-level process control, signal handling, and inter-process communication. Implemented job control, foreground/background execution, and piping to replicate core shell behavior. Used Makefiles for portable builds and followed memory-safe practices in low-level C development. Demonstrated understanding of concurrency, lifecycle management, and command parsing in a UNIX environment.",
+    "tags": ["C", "Assembly", "Makefile", "UNIX/Linux"],
+    "link": ""
+  }
+]
