@@ -1,3 +1,4 @@
+import { ArrowDownFromLine } from "lucide-react";
 import MyPortrait from "../../assets/images/MyPortrait.png";
 
 const About = () => {
@@ -51,6 +52,11 @@ const About = () => {
             className="w-fit h-fit rounded-full object-cover object-center border-2 border-accent"
           />
         </div>
+      </div>
+      <div className="flex justify-center max-lg:hidden max-lg:invisible">
+        <a href="#experience" className="hover:cursor-pointer">
+          <ArrowDownFromLine className="animate-bounce h-7 w-7" />
+        </a>
       </div>
     </section>
   );

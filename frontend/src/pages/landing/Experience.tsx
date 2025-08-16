@@ -1,6 +1,7 @@
 import ExperienceCard from "../../components/ExperienceCard";
 import type { ExperienceType } from "../../types/ExperienceType";
 import data from "../../data/Experiences.json";
+import { ArrowDownFromLine } from "lucide-react";
 
 const experiences: ExperienceType[] = data;
 
@@ -17,6 +18,11 @@ const Experience = () => {
         {experiences.map((exp, i) => (
           <ExperienceCard key={i} experience={exp} />
         ))}
+      </div>
+      <div className="flex mt-15 justify-center max-lg:hidden max-lg:invisible">
+        <a href="#projects" className="hover:cursor-pointer">
+          <ArrowDownFromLine className="animate-bounce h-7 w-7" />
+        </a>
       </div>
     </section>
   );
