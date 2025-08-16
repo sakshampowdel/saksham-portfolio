@@ -9,7 +9,7 @@ const ThemeToggle = ({ theme, setTheme }: ThemeToggleProps) => {
   return (
     <div>
       <button
-        className="min-h-7"
+        className="min-h-7 hover:cursor-pointer"
         onClick={() => {
           setTheme(theme === "light" ? "dark" : "light");
         }}
