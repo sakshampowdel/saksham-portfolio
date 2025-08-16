@@ -3,7 +3,7 @@ import type { ExperienceType } from "../../types/ExperienceType";
 import data from "../../data/Experiences.json";
 import { ArrowDownFromLine } from "lucide-react";
 
-const experiences: ExperienceType[] = data;
+const experienceList: ExperienceType[] = data;
 
 const Experience = () => {
   return (
@@ -11,11 +11,11 @@ const Experience = () => {
       id="experience"
       className="py-12 md:px-24 min-h-screen scroll-mt-24"
     >
-      <h1 className="text-6xl max-md:text-5xl font-bold text-accent text-center pb-12">
+      <h1 className="text-6xl max-md:text-5xl font-bold text-accent text-center pb-12 text-shadow-lg">
         Experience
       </h1>
       <div className="space-y-4">
-        {experiences.map((exp, i) => (
+        {experienceList.map((exp, i) => (
           <ExperienceCard key={i} experience={exp} />
         ))}
       </div>

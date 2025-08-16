@@ -4,7 +4,7 @@ import MyPortrait from "../../assets/images/MyPortrait.png";
 const About = () => {
   return (
     <section id="about" className="py-12 md:px-24 min-h-screen scroll-mt-24">
-      <h1 className="text-6xl max-md:text-5xl font-bold text-accent text-center pb-12">
+      <h1 className="text-6xl max-md:text-5xl font-bold text-accent text-center pb-12 text-shadow-lg">
         My Story
       </h1>
       <div className="grid grid-cols-2 gap-8 max-xl:grid-cols-1">
