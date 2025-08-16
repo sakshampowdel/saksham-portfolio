@@ -32,8 +32,10 @@ const Hero = () => {
           setIndex((prev) => (prev + 1) % occupations.length);
         }
       },
+
+      // Faster when deleting
       isDeleting ? 50 : 100
-    ); // faster when deleting
+    );
 
     return () => clearTimeout(timeout);
   }, [subIndex, index, isDeleting]);
