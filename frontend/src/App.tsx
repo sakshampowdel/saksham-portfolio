@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./pages/landing/Hero";
 import About from "./pages/landing/About";
 import Experience from "./pages/landing/Experience";
+import Projects from "./pages/landing/Projects";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <About />
       <Experience />
+      <Projects />
     </div>
   );
 }
