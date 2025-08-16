@@ -14,7 +14,7 @@ const ProjectCard = ({ project }: { project: ProjectType }) => {
       <h2 className="italic">{project.role}</h2>
       <h3 className="font-light">{project.period}</h3>
       <p>{project.description}</p>
-      <div className="space-x-3">
+      <div className="space-x-3 flex flex-wrap">
         {project.tags.map((tag, i) => (
           <span key={i} className="underline">
             {tag}
