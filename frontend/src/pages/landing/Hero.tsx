@@ -41,7 +41,7 @@ const Hero = () => {
   }, [subIndex, index, isDeleting]);
 
   return (
-    <section id="hero" className="p-6 flex justify-center min-h-screen">
+    <section id="hero" className="p-12 flex justify-center min-h-screen">
       <div className="flex flex-col text-3xl font-light items-center">
         <h2 className="text-6xl max-md:text-4xl text-center">Hi! I'm</h2>
         <h1 className="text-9xl max-md:text-6xl text-accent font-bold">
