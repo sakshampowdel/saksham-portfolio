@@ -9,6 +9,10 @@
   --color-accent-foreground: var(--accent-foreground);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* ====== Theme 1: Light happy hues ====== */
 :root[data-theme="light"] {
   --background: #f9f4ef;
