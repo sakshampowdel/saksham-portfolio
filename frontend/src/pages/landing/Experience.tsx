@@ -11,7 +11,7 @@ const Experience = () => {
       id="experience"
       className="py-12 md:px-24 min-h-screen scroll-mt-24"
     >
-      <h1 className="text-6xl font-bold text-accent text-center pb-12">
+      <h1 className="text-6xl max-md:text-5xl font-bold text-accent text-center pb-12">
         Experience
       </h1>
       <div className="space-y-4">
@@ -19,7 +19,7 @@ const Experience = () => {
           <ExperienceCard key={i} experience={exp} />
         ))}
       </div>
-      <div className="flex mt-15 justify-center max-lg:hidden max-lg:invisible">
+      <div className="flex mt-15 justify-center max-xl:hidden max-xl:invisible">
         <a href="#projects" className="hover:cursor-pointer">
           <ArrowDownFromLine className="animate-bounce h-7 w-7" />
         </a>

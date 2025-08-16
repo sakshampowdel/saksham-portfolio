@@ -4,9 +4,11 @@ import MyPortrait from "../../assets/images/MyPortrait.png";
 const About = () => {
   return (
     <section id="about" className="py-12 md:px-24 min-h-screen scroll-mt-24">
-      <h1 className="text-6xl font-bold text-accent text-center">My Story</h1>
+      <h1 className="text-6xl max-md:text-5xl font-bold text-accent text-center pb-12">
+        My Story
+      </h1>
       <div className="grid grid-cols-2 gap-8 max-xl:grid-cols-1">
-        <div className="py-12 text-xl space-y-10">
+        <div className="py-12 max-md:px-2 md:text-xl space-y-10">
           <p>
             Hello, I'm <b className="text-accent">Saksham</b> (sock-shum)! I'm a{" "}
             <b>Software Engineer</b> with a Bachelor's of Science in{" "}
@@ -45,7 +47,7 @@ const About = () => {
             others.
           </p>
         </div>
-        <div className="flex justify-center align-middle py-12">
+        <div className="flex max-md:px-2 justify-center align-middle py-12">
           <img
             src={MyPortrait}
             alt="Portrait"
@@ -53,7 +55,7 @@ const About = () => {
           />
         </div>
       </div>
-      <div className="flex justify-center max-lg:hidden max-lg:invisible">
+      <div className="flex justify-center max-xl:hidden max-xl:invisible">
         <a href="#experience" className="hover:cursor-pointer">
           <ArrowDownFromLine className="animate-bounce h-7 w-7" />
         </a>
