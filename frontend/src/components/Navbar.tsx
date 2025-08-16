@@ -14,6 +14,16 @@ const Navbar = () => {
     localStorage.setItem("theme", theme);
   }, [theme]);
 
+  const scrollTo = (id: string) => {
+    setIsOpen(false);
+    setTimeout(() => {
+      document.querySelector(id)?.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }, 300);
+  };
+
   return (
     <nav className="bg-background sticky top-0 z-50 text-xl font-semibold">
       {/* Top Accent Bar */}
@@ -68,24 +78,18 @@ const Navbar = () => {
           {
             <ul className="flex flex-col items-center justify-center h-full min-h-screen gap-6 text-2xl">
               <li className="hover:underline">
-                <a href="#about" onClick={() => setIsOpen(!isOpen)}>
-                  About
-                </a>
+                <button onClick={() => scrollTo("#about")}>About</button>
               </li>
               <li className="hover:underline">
-                <a href="#experience" onClick={() => setIsOpen(!isOpen)}>
+                <button onClick={() => scrollTo("#experience")}>
                   Experience
-                </a>
+                </button>
               </li>
               <li className="hover:underline">
-                <a href="#projects" onClick={() => setIsOpen(!isOpen)}>
-                  Projects
-                </a>
+                <button onClick={() => scrollTo("#projects")}>Projects</button>
               </li>
               <li className="hover:underline">
-                <a href="#contact" onClick={() => setIsOpen(!isOpen)}>
-                  Contact
-                </a>
+                <button onClick={() => scrollTo("#contact")}>Contact</button>
               </li>
               <li>
                 <ThemeToggle theme={theme} setTheme={setTheme} />
