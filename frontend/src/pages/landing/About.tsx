@@ -28,12 +28,21 @@ const About = () => {
             Growing up, I spent countless hours playing basketball and soccer,
             and to this day there's nothing like the rush of a good game. Music
             is another huge part of me—I love picking up my guitar and getting
-            lost in math rock, with <b>Toe</b> being my all-time favorite band.
-            On the gaming side, I've sunk plenty of hours into{" "}
-            <b>Path of Exile</b> and <b>League of Legends</b>, and I have a soft
-            spot for MMORPGs and rhythm games. Honestly, though, what matters
-            most to me is the people I'm playing with—whether it's sports,
-            music, or games, I just enjoy sharing those experiences with others.
+            lost in math rock, with{" "}
+            <a
+              className="text-blue-400 underline"
+              href="https://en.wikipedia.org/wiki/Toe_(band)"
+              rel="noopener noreferrer"
+              target="_blank"
+            >
+              Toe
+            </a>{" "}
+            being my all-time favorite band. On the gaming side, I've sunk
+            plenty of hours into Path of Exile and League of Legends, and I have
+            a soft spot for MMORPGs and rhythm games. Honestly, though, what
+            matters most to me is the people I'm playing with—whether it's
+            sports, music, or games, I just enjoy sharing those experiences with
+            others.
           </p>
         </div>
         <div className="flex justify-center align-middle py-12">
