@@ -1,16 +1,11 @@
-import { useState, useEffect } from "react";
 import { Sun, Moon } from "lucide-react";
 
-const ThemeToggle = () => {
-  const [theme, setTheme] = useState(
-    () => localStorage.getItem("theme") || "light"
-  );
+type ThemeToggleProps = {
+  theme: "light" | "dark";
+  setTheme: (theme: "light" | "dark") => void;
+};
 
-  useEffect(() => {
-    document.documentElement.setAttribute("data-theme", theme);
-    localStorage.setItem("theme", theme);
-  }, [theme]);
-
+const ThemeToggle = ({ theme, setTheme }: ThemeToggleProps) => {
   return (
     <div>
       <button
