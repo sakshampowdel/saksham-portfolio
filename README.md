@@ -24,7 +24,7 @@ This site showcases my **projects, experience, and background** as a software en
 - **Frontend:** React, TypeScript, Vite  
 - **Styling:** Tailwind CSS  
 - **Icons:** Lucide, React-Icons  
-- **Deployment:** GitHub Pages / Custom Domain  
+- **Deployment:** Netlify
 
 ---
 
