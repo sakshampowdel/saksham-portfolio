@@ -40,7 +40,11 @@ const Contact = () => {
           </div>
         </a>
 
-        <a href="/resume.pdf" rel="noopener noreferrer" target="_blank">
+        <a
+          href="/Saksham_Powdel_Resume.pdf"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
           <div className="flex flex-col items-center space-y-2">
             <FileText className="h-10 w-10" />
             <h1>My Resume</h1>
